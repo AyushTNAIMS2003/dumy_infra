@@ -16,6 +16,7 @@ This doc captures **exactly what we set up**, **how to run it locally**, **what 
 
 ## 1) Repository layout
 
+.
 aurynto-infrastructure/
 ├─ helm/
 │ └─ aurynto/
