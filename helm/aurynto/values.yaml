@@ -1,0 +1,34 @@
+# ----- global -----
+namespace: aurynto
+imagePullSecrets: []   # e.g., ["ghcr-cred"] if images are private
+
+# Choose service type:
+# - For local kind/minikube: NodePort
+# - For AKS later: LoadBalancer
+serviceType: NodePort
+
+# Optional Ingress (set enabled: true to use)
+ingress:
+  enabled: false
+  className: nginx
+  host: aurynto.local
+  tls: false
+  annotations: {}
+
+# ----- frontend -----
+frontend:
+  enabled: true
+  image: ghcr.io/tnaims/aurynto-frontend:latest
+  replicas: 1
+  port: 80
+  resources: {}
+  nodePort: 30080   # used only if serviceType=NodePort
+
+# ----- backend -----
+backend:
+  enabled: true
+  image: ghcr.io/tnaims/aurynto-backend:latest
+  replicas: 1
+  port: 8080
+  resources: {}
+  nodePort: 30081   # used only if serviceType=NodePort

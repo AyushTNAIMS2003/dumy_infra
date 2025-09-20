@@ -1,0 +1,9 @@
+AURYNTO installed in namespace: {{ .Values.namespace }}
+
+If serviceType=NodePort (default for local):
+  Frontend:  nodePort {{ .Values.frontend.nodePort }}
+  Backend:   nodePort {{ .Values.backend.nodePort }}
+
+Example (kind/minikube):
+  Frontend -> http://localhost:{{ .Values.frontend.nodePort }}
+  Backend  -> http://localhost:{{ .Values.backend.nodePort }}

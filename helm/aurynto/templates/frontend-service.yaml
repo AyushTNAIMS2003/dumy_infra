@@ -1,0 +1,17 @@
+{{- if .Values.frontend.enabled }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: {{ .Values.namespace }}
+spec:
+  type: {{ .Values.serviceType }}
+  selector: { app: frontend }
+  ports:
+    - name: http
+      port: 80
+      targetPort: {{ .Values.frontend.port }}
+      {{- if eq .Values.serviceType "NodePort" }}
+      nodePort: {{ .Values.frontend.nodePort }}
+      {{- end }}
+{{- end }}
