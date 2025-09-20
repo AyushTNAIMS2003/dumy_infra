@@ -1,0 +1,19 @@
+name: infrastructure-ci
+
+on:
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "helm/**"
+
+permissions:
+  contents: read
+
+jobs:
+  helm-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: azure/setup-helm@v4
+      - name: Lint chart
+        run: helm lint ./helm/aurynto
