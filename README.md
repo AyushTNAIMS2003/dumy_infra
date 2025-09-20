@@ -1,4 +1,4 @@
-# 🏗️ AURYNTO Infrastructure (PoC) — End-to-End Guide
+# 🏗️ AURYNTO Infrastructure (PoC) — Guide 1
 
 This doc captures **exactly what to set up**, **how to run it locally**, **what the team needs to know**, and **how to troubleshoot** common issues on Windows using **VS Code + GitHub Desktop + Docker Desktop**.
 
@@ -341,8 +341,6 @@ kind delete cluster --name aurynto
 - **Frontend:** replace placeholder with your real build (update the image).
 
 - **CI:** keep `infrastructure-ci` required in repo rules.
-
-- **Docs:** keep this file in the repo as `README.md` so freshers can follow it.
 
 - **(Later) Azure AKS:** reuse this Helm chart; add a deploy workflow and AKS credentials.
 
