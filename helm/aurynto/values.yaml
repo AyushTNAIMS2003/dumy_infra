@@ -1,6 +1,6 @@
 # ----- global -----
 namespace: aurynto
-imagePullSecrets: ["ghcr-cred"]   # e.g., ["ghcr-cred"] if images are private
+imagePullSecrets: []   # e.g., ["ghcr-cred"] if images are private
 
 # Choose service type:
 # - For local kind/minikube: NodePort
