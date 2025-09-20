@@ -16,7 +16,7 @@ This doc captures **exactly what we set up**, **how to run it locally**, **what 
 
 ## 1) Repository layout
 
-.
+```text
 aurynto-infrastructure/
 ├─ helm/
 │ └─ aurynto/
@@ -33,6 +33,8 @@ aurynto-infrastructure/
 └─ .github/
 └─ workflows/
 └─ helm-ci.yaml # lints the chart on pull requests  
+
+```  
 
 **Key configurable bits** are in `values.yaml`:
 - `serviceType: NodePort` (for local kind)
