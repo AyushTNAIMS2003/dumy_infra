@@ -17,19 +17,19 @@
 | Hashir | Infra & Observability | AKS (later), Helm umbrella, Prometheus, Grafana, Loki |
 | Ubaid | Data & Messaging | TimescaleDB schema, MQTT broker, ingestion worker |
 | Ayush | CI/CD & Automation | GitHub Actions, OIDC, Helm deploy pipeline |
-| Fresher D | Frontend | Next.js dashboard, QR mobile pages |
+| Tech D | Frontend | Next.js dashboard, QR mobile pages |
 | Muneeb | Backend Services | FastAPI services (Digital Twin, Dispatch, GeoSecure) |
 
 ---
 
 ## 🔑 Week 1 Access Policy
 - **Azure Access:** Only **Talha (Lead)** will access Azure in Week 1.  
-- **Freshers:** Work on **local setups** (k3d, Docker, Next.js, FastAPI).  
+- **Techs:** Work on **local setups** (k3d, Docker, Next.js, FastAPI).  
 - Azure access for others will be introduced from **Week 2 onwards**.
 
 ---
 
-## 🛠 Tools to Install (All Freshers)
+## 🛠 Tools to Install (All Techs)
 - **Docker** (for local DBs, brokers, containers)  
 - **kubectl + Helm** (for k3d cluster deployments)  
 - **Python 3.11 + venv** (for backend, ingestion worker)  
@@ -212,7 +212,7 @@ def get_assets():
 ### Reporting & Demo  
 
 - **Daily Standup (15 min)** → Yesterday’s work, today’s goal, blockers.  
-- Documentation → Each fresher writes a 2–3 page markdown in `docs/`.
+- Documentation → Each tech writes a 2–3 page markdown in `docs/`.
 - Sunday Demo:
     - Hashir: Grafana dashboard
     - Ubaid: MQTT → Timescale ingestion
