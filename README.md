@@ -364,3 +364,6 @@ kind delete cluster --name aurynto
 ---
 
 Good Luck!
+
+## 📅 Development Plans
+- [Week 1 Plan](docs/WEEK1_PLAN.md)
