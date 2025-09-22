@@ -214,21 +214,21 @@ def get_assets():
 - **Daily Standup (15 min)** → Yesterday’s work, today’s goal, blockers.  
 - Documentation → Each fresher writes a 2–3 page markdown in `docs/`.
 - Sunday Demo:
-    - Fresher A: Grafana dashboard
-    - Fresher B: MQTT → Timescale ingestion
-    - Fresher C: CI/CD pipeline run
-    - Fresher D: Next.js dashboard skeleton
-    - Fresher E: FastAPI endpoints  
+    - Hashir: Grafana dashboard
+    - Ubaid: MQTT → Timescale ingestion
+    - Ayush: CI/CD pipeline run
+    - Tech D / Talha: Next.js dashboard skeleton
+    - Muneed: FastAPI endpoints  
 
 ---
 
 ### Week 1 Definition of Done  
-    - Azure skeleton (AKS, ACR, Key Vault) ready.
-    - GitHub repos + branch protection in place.
-    - Helm umbrella initialized.
-    - Observability stack running locally (Grafana dashboard live).
-    - MQTT → TimescaleDB pipeline functional.
-    - CI/CD pipeline triggers on PR/push.
-    - Frontend skeleton with placeholder pages.
-    - Backend FastAPI service running in Docker.
-    - Team docs available in docs/.
+- Azure skeleton (AKS, ACR, Key Vault) ready.
+- GitHub repos + branch protection in place.
+- Helm umbrella initialized.
+- Observability stack running locally (Grafana dashboard live).
+- MQTT → TimescaleDB pipeline functional.
+- CI/CD pipeline triggers on PR/push.
+- Frontend skeleton with placeholder pages.
+- Backend FastAPI service running in Docker.
+- Team docs available in docs/.
