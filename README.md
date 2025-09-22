@@ -1,7 +1,7 @@
 # 🏗️ AURYNTO Infrastructure (PoC) — Guide 1
 
 ## 📅 Development Plans
-- [Week 1 Plan](docs/WEEK1_PLAN.md)
+- [Week 1 Plan](WEEK1_PLAN.md)
 
 This doc captures **exactly what to set up**, **how to run it locally**, **what the team needs to know**, and **how to troubleshoot** common issues on Windows using **VS Code + GitHub Desktop + Docker Desktop**.
 
