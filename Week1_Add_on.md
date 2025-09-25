@@ -17,7 +17,7 @@
   
 3. **API endpoint (FastAPI)**
    - Expose `/telemetry/recent/{asset_id}` → return last 10 readings from DB.  
-   - This will feed Fresher D’s frontend later.
+   - This will feed Tech D’s frontend later.
   
 4. **Deliverables**
    - Push code into `aurynto-sandbox/aurynto-services/data-pipeline/`.  
