@@ -6,7 +6,7 @@ This doc captures **exactly what to set up**, **how to run it locally**, **what 
 
 ## 📅 Development Plans
 - [Week 1 Plan](WEEK1_PLAN.md)
-- [Week 1 Plan Add On][Week1_Plan_(Add on).md]
+- [Week 1 Plan Add On](Week1_Add_on.md)
 
 ---
 
