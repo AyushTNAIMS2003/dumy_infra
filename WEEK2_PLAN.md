@@ -131,7 +131,7 @@
    
 ## 📅 Reporting & Demo  
 - **Daily Standup (15 min)** → yesterday’s work, today’s goal, blockers.
-- **Docs** → each fresher updates their guide in `docs/`.
+- **Docs** → each tech updates their guide in `docs/`.
 - **Saturday/Sunday Demo:**
   - HN → Grafana dashboards (SLOs + traces).  
   - UA → Digital Twin API (history + state with GPS).
