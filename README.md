@@ -8,6 +8,7 @@ This doc captures **exactly what to set up**, **how to run it locally**, **what 
 - [Week 1 Plan](WEEK1_PLAN.md)
 - [Week 1 Plan Add On](Week1_Add_on.md)
 - [Week 2 Plan](WEEK2_PLAN.md)
+- [Week 3 Plan](WEEK3_PLAN.md)
 
 ---
 
