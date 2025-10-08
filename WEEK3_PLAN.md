@@ -18,14 +18,14 @@
 | Data & Messaging | **UA** | Ingestion worker, Timescale/PostGIS, Digital Twin data API |
 | CI/CD & Automation | **AM** | GitHub Actions → ACR → AKS deployments |
 | Frontend | **TN** | Dashboard (Digital Twin map, Dispatch, GeoSecure UI) |
-| Backend Services | **MR** | Smart Dispatch + GeoSecure APIs |
+| Backend Services | **TN** | Smart Dispatch + GeoSecure APIs |
 
 ---
 
 ## 🔑 Access Policy (Week 3)
 - **Azure Access:** Talha + AM (for infra and CI/CD).  
 - **HN** gets Azure read access to connect Grafana.  
-- **UA, TN, MR** deploy to Azure via the CI/CD pipeline (no direct portal access).
+- **UA, TN** deploy to Azure via the CI/CD pipeline (no direct portal access).
 
 ---
 
