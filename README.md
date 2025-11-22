@@ -4,6 +4,10 @@ This doc captures **exactly what to set up**, **how to run it locally**, **what 
 
 ---
 
+![Infra Validation](https://github.com/AyushTNAIMS2003/dumy_infra/actions/workflows/infra-validate.yml/badge.svg)
+
+
+
 ## 📅 Development Plans
 - [Week 1 Plan](WEEK1_PLAN.md)
 - [Week 1 Plan Add On](Week1_Add_on.md)
